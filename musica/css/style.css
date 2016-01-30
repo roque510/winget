@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+.body1 {
+    background: -webkit-linear-gradient(45deg, #eb392f 0%, rgba(78, 10, 123, 0.25) 70%), -webkit-linear-gradient(315deg, rgb(47, 51, 226) 10%, rgba(61, 30, 152, 0.28) 80%), -webkit-linear-gradient(225deg, rgb(51, 250, 28) 10%, rgba(10, 219, 216, 0) 80%), -webkit-linear-gradient(135deg, #09f505 100%, rgba(9, 245, 5, 0) 70%);
+    background: linear-gradient(45deg, #eb392f 0%, rgba(78, 10, 123, 0.24) 70%), linear-gradient(135deg, rgb(47, 51, 226) 10%, rgba(61, 30, 152, 0.10) 80%), linear-gradient(225deg, rgb(51, 250, 28) 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #09f505 100%, rgba(9, 245, 5, 0) 70%);
+}
+
+.htopbanner { text-align: center; -webkit-text-stroke: 0px black; font-family: "Lobster", Times, sans-serif;
+    color: rgb(255, 255, 255)
+}
+
+.fade-in {
+    opacity: 0;
+    /* make things invisible upon start */
+
+    -webkit-animation: fadeIn ease-in 1;
+    /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.fade-in.one {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+nav.radial {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    top: -1.5rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+}
+nav.radial input {
+    display: none;
+}
+nav.radial > label,
+nav.radial > a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(211, 214, 220, 0.51);
+    color: white;
+    text-align: center;
+    font-size: 0;
+    line-height: 3rem;
+}
+nav.radial label:before,
+nav.radial a:before {
+    font-size: 1.2rem;
+    color: white;
+}
+nav.radial a {
+    color: transparent;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav.radial label {
+    border-radius: 0 0 1.5rem 1.5rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-bottom: 0.25rem solid rgba(158, 158, 158, 0.50);
+    box-shadow: 0 1.5875rem rgba(244, 244, 244, 0.25);
+
+    background-image: url("menu.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav.radial input:checked ~ label {
+    border-bottom-width: 1px;
+    box-shadow: none;
+}
+nav.radial a[href] {
+    transition: top 0.1s, left 0.25s, opacity 1s, box-shadow 0.25s;
+    border-radius: 1.5rem;
+    opacity: 0;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.50);
+    border-bottom: 1px solid #888;
+    box-sizing: border-box;
+}
+nav.radial a[href]:hover {
+    background-color: #1abc9c;
+    border-bottom-color: #2c7768;
+}
+nav.radial input:checked ~ a[href] {
+
+    opacity: 1;
+}
+nav.radial a[href]:hover {
+    border-bottom-width: 0.25rem;
+}
+nav.radial input:checked ~ a[href]:nth-of-type(1),
+nav.radial input:checked ~ a[href]:nth-of-type(5) {
+    box-shadow: 0 -0.1875rem 1.575rem rgba(255, 255, 255, 0.50);
+}
+nav.radial input:checked ~ a[href]:nth-of-type(1) {
+    left: -6.72707721rem;
+    top: 0.83351125rem;
+    background-image: url("fav.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav.radial input:checked ~ a[href]:nth-of-type(2) {
+    left: -5.08538053rem;
+    top: 5.67701333rem;
+    background-image: url("info.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav.radial input:checked ~ a[href]:nth-of-type(3) {
+    left: 0rem;
+    top: 8.8rem;
+    background-image: url("coins.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav.radial input:checked ~ a[href]:nth-of-type(4) {
+    left: 5.08538053rem;
+    top: 5.67701333rem;
+    background-image: url("playlist.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav.radial input:checked ~ a[href]:nth-of-type(5) {
+    left: 6.72707721rem;
+    top: 0.83351125rem;
+    background-image: url("searchh.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

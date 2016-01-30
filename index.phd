@@ -1,0 +1,401 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winget | Welcome</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" href="css/foundation.css" />
+      <script src="js/foundation.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="js/vendor/modernizr.js"></script>
+
+
+
+  </head>
+  <body >
+
+
+      <!--div id="prueba" class="lock large-4 columns" ><h1 id="titulo">Earn it</h1></div-->
+      <!--nav class="top-bar"  data-topbar role="navigation" >
+          <ul class="title-area">
+              <li class="name">
+                  <h1 ><span id="titulo" style="color:white; ">WIN</span><span id="titulo" style="color:#00ff18; ">GET</span></h1>
+              </li>
+              <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+              <!--li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+              <!-- Right Nav Section -->
+              <!--ul  class=" right">
+                  <li class=""><a class="subtitulo" href="#inicio">Inicio</a></li>
+                  <li class=""><a class="subtitulo" href="#about">About</a></li>
+                  <li class=""><a class="subtitulo" href="#faq">Faq</a></li>
+                  <li class="" ><a data-reveal-id="login" class="subtitulo" id="e">Login</a></li>
+                  <li  class="has-form">
+                      <a data-reveal-id="videoModal" href="#" class="button">Registrate</a>
+                  </li>
+
+                  <!--li class="has-dropdown">
+                      <a href="#">Right Button Dropdown</a>
+                      <ul class="dropdown">
+                          <li><a href="#">First link in dropdown</a></li>
+                          <li class="active"><a href="#">Active link in dropdown</a></li>
+                      </ul>
+                  </li-->
+              <!--/ul>
+
+              <!-- Left Nav Section -->
+
+          <!--/section>
+      </nav>
+
+      <div class="" style=" background-color: #00CDFF; border-width: 20px;  ">
+
+
+
+          <div class="row">
+
+
+
+             <h1  id="h21" class="columns large-7" style= "  color:white; font-size: 70px; margin-top: 50px; margin-left: -40px;"  >WINGET,</h1>
+              <img class="columns large-5" src="img/wgstamp.png" alt="Mountain View" style="  max-width: 400px; margin-top: 50px;">
+              <h22  id="h22" class="columns large-12" style= " color:#FFD500; font-size: 20px; margin-top: -60px; "  >Una manera sencilla de ganar las monedas!</h22>
+              <h3   class="columns large-12" style= "font-family: 'arial', Georgia, Serif !important; color:black; font-size: 18px; margin-top:10px !important; "  >WinGet, es un servicio de venta de publicidad<br>
+                  y de adquisicion facil en inmediata de moneda<br>
+                  virtual de diversos juegos en linea como lo es<br>
+                  Riot: League of Legends </h3>
+
+             <?php
+             if(isset($_GET["p"]))
+                 switch($_GET["p"]){
+                     case "about":{echo "<h1>hola ishoiuedghfiousdgf</h1>"; break;}
+                     case "registrar":{echo "        "; break;}
+
+                 }
+
+
+
+             ?>
+
+
+         </div>
+      </div-->
+
+
+      <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+
+              <li class="name">
+                  <h1>
+                      <a href="#">
+                          Top Bar Title
+                      </a>
+                  </h1>
+              </li>
+              <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+
+              <ul class="right">
+                  <li class="divider"></li>
+                  <li class="has-dropdown">
+                      <a href="#">Main Item 1</a>
+                      <ul class="dropdown">
+                          <li><label>Section Name</label></li>
+                          <li class="has-dropdown">
+                              <a href="#" class="">Has Dropdown, Level 1</a>
+                              <ul class="dropdown">
+                                  <li><a href="#">Dropdown Options</a></li>
+                                  <li><a href="#">Dropdown Options</a></li>
+                                  <li><a href="#">Level 2</a></li>
+                                  <li><a href="#">Subdropdown Option</a></li>
+                                  <li><a href="#">Subdropdown Option</a></li>
+                                  <li><a href="#">Subdropdown Option</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="#">Dropdown Option</a></li>
+                          <li><a href="#">Dropdown Option</a></li>
+                          <li class="divider"></li>
+                          <li><label>Section Name</label></li>
+                          <li><a href="#">Dropdown Option</a></li>
+                          <li><a href="#">Dropdown Option</a></li>
+                          <li><a href="#">Dropdown Option</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">See all →</a></li>
+                      </ul>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Main Item 2</a></li>
+                  <li class="divider"></li>
+                  <li class="has-dropdown">
+                      <a href="#">Main Item 3</a>
+                      <ul class="dropdown">
+                          <li><a href="#">Dropdown Option</a></li>
+                          <li><a href="#">Dropdown Option</a></li>
+                          <li><a href="#">Dropdown Option</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">See all →</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </section>
+      </nav>
+
+
+
+      <div class="row">
+          <div class="large-12 columns">
+
+
+
+              <div class="row">
+                  <div class="large-12 hide-for-small">
+
+                      <div id="featured" data-orbit>
+                          <img src="http://placehold.it/1200x500&text=Slide Image 1" alt="slide image">
+                          <img src="http://placehold.it/1200x500&text=Slide Image 2" alt="slide image">
+                          <img src="http://placehold.it/1200x500&text=Slide Image 3" alt="slide image">
+                      </div>
+
+                  </div>
+              </div>
+
+
+
+
+
+              <div class="row">
+                  <div class="large-12 columns show-for-small">
+
+                      <img src="http://placehold.it/1200x700&text=Mobile Header">
+
+                  </div>
+              </div><br>
+
+
+
+
+              <div class="row">
+                  <div class="large-12 columns">
+                      <div class="row">
+
+                          <div class="large-4 small-6 columns">
+
+                              <h4>Upcoming Shows</h4><hr>
+
+                              <div class="row">
+                                  <div class="large-1 column">
+                                      <img src="http://placehold.it/50x50&text=[img]">
+                                  </div>
+
+                                  <div class="large-9 columns">
+                                      <h5><a href="#">Venue Name</a></h5>
+                                      <h6 class="subheader show-for-small">Doors at 00:00pm</h6>
+                                  </div>
+                              </div><hr>
+
+                              <div class="hide-for-small">
+                                  <div class="row">
+                                      <div class="large-1 column">
+                                          <img src="http://placehold.it/50x50&text=[img]">
+                                      </div>
+
+                                      <div class="large-9 columns">
+                                          <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                      </div>
+                                  </div><hr>
+
+                                  <div class="row">
+                                      <div class="large-1 column">
+                                          <img src="http://placehold.it/50x50&text=[img]">
+                                      </div>
+
+                                      <div class="large-9 columns">
+                                          <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                      </div>
+                                  </div><hr>
+
+                                  <div class="row">
+                                      <div class="large-1 column">
+                                          <img src="http://placehold.it/50x50&text=[img]">
+                                      </div>
+
+                                      <div class="large-9 columns">
+                                          <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+
+
+
+
+                          <div class="large-4 small-6 columns">
+                              <img src="http://placehold.it/300x465&text=Image">
+                          </div>
+
+
+
+
+
+
+                          <div class="large-4 small-12 columns">
+
+                              <h4>Blog</h4><hr>
+                              <div class="panel">
+                                  <h5><a href="#">Post Title 1</a></h5>
+
+                                  <h6 class="subheader">
+                                      Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
+                                  </h6>
+
+                                  <h6><a href="#">Read More »</a></h6>
+                              </div>
+
+                              <div class="panel hide-for-small">
+                                  <h5><a href="#">Post Title 2 »</a></h5>
+                              </div>
+
+                              <div class="panel hide-for-small">
+                                  <h5><a href="#">Post Title 3 »</a></h5>
+                              </div>
+
+                              <a href="#" class="right">Go To Blog »</a>
+
+                          </div>
+
+
+
+                      </div>
+                  </div>
+              </div>
+
+
+
+
+
+
+              <footer class="row">
+                  <div class="large-12 columns"><hr>
+                      <div class="row">
+
+                          <div class="large-6 columns">
+                              <p>© Copyright no one at all. Go to town.</p>
+                          </div>
+
+                          <div class="large-6 small-12 columns">
+                              <ul class="inline-list right">
+                                  <li><a href="#">Link 1</a></li>
+                                  <li><a href="#">Link 2</a></li>
+                                  <li><a href="#">Link 3</a></li>
+                                  <li><a href="#">Link 4</a></li>
+                              </ul>
+                          </div>
+
+                      </div>
+                  </div>
+              </footer>
+
+
+
+          </div>
+      </div>
+
+
+
+
+
+
+      <div id='videoModal' class='reveal-modal modalwin' style=" max-width: 800px !important;" data-reveal aria-labelledby='videoModalTitle' aria-hidden='true' role='dialog''>
+
+      <form method="post" action="registro.php">
+          <h1 class='subheader'>Nombre:</h1>
+          <input  type='text' name="nombre" class='subheader smallglowing-border' placeholder='Armando' style='font-size:25px ;'/>
+          <h1 class='subheader'>Usuario:</h1>
+          <input  type='text' name="user" class='subheader smallglowing-border' placeholder='aroque' style='font-size:25px ;'/>
+          <h1 class='subheader'>Contraseña:</h1>
+          <input  type='text' name="password" class='subheader smallglowing-border' placeholder='contra' style='font-size:25px ;'/>
+          <h1 class='subheader'>Confirmar Contraseña:</h1>
+          <input  type='text' name="confpassword" class='subheader smallglowing-border' placeholder='contra' style='font-size:25px ;'/>
+          <h1 class='subheader'>Correo:</h1>
+          <input  type='text' name="correo" class='subheader smallglowing-border' placeholder='pablo@winget.com' style='font-size:25px ;'/>
+          <h1 class='subheader'>Fecha de Nacimiento:</h1>
+          <input  type='date' name="fechanac" class='subheader smallglowing-border' placeholder='5' min='0' max='99' style='font-size:20px !important;'/>
+          <h1 class='subheader'>Numero Favorito:</h1>
+          <input  type='number' name="numfav" class='subheader smallglowing-border' placeholder='5' min='0' max='99' style='height="30px" font-size:15px !important;'/>
+          <input type="submit" class="round button" value="Registro" style="float: right;" >
+
+
+      </form>
+
+
+
+
+      <a class='close-reveal-modal' aria-label='Close'>&#215;</a>
+      </div>
+
+      <div id='login' class='reveal-modal modalwin ' style=" max-height: 500px !important; max-width: 500px !important;" data-reveal aria-labelledby='videoModalTitle' aria-hidden='true' role='dialog''>
+
+      <form method="post" action="valida.php">
+          <label class="error" id="wronglabel" style="font-size:40px; visibility: hidden;">Error</label>
+          <h1 class='subheader'>Usuario:</h1>
+          <input type='text' class='subheader smallglowing-border error' placeholder='Armando' name="user" style='font-size:25px ;'/>
+          <small id="wronge" class="error" style="visibility: hidden;">Usuario Incorrecto</small>
+          <h1 class='subheader'>Contraseña:</h1>
+          <input  type='password' class='subheader smallglowing-border ' placeholder='password123' name="password" style='font-size:25px ;'></input>
+          <small id="wrong" class="error" style="visibility: hidden;">Contraseña incorrecta</small>
+          <input  type="submit" class="round button" value="Registro" style="float: right;" >
+      </form>
+
+
+
+
+      <a class='close-reveal-modal' aria-label='Close'>&#215;</a>
+      </div>
+
+
+
+      <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+
+  <?php
+  if(isset($_GET['resp']))
+      switch($_GET['resp']){
+          case 1: echo "<script>alert('Subscripcion EXITOSA');</script>"; break;
+          case 0: echo "<script>alert('el Usuario que eligio ya existe');</script>"; break;
+         case 2: echo "<script> $('#login').foundation('reveal', 'open'); document.getElementById('wrong').style.visibility = 'visible'; document.getElementById('wronglabel').style.visibility = 'visible'; document.getElementById('wronge').style.visibility = 'visible'; </script>"; break;
+          case 'default': break;
+
+
+      }
+  ?>
+
+      <script>
+          document.write('<script src=js/vendor/' +
+              ('__proto__' in {} ? 'zepto' : 'jquery') +
+              '.js><\/script>')
+      </script>
+
+      <script>
+          $(document).foundation();
+
+      </script>
+  </body>
+</html>
+
+
+<!-- case "wrong": echo "<a id='clicker' style='visibility: hidden;' data-reveal-id='login''></a>
+<script>
+    var foo = document.getElementById('clicker'');
+    foo.addEventListener('click', function() { display('Clicked'); }, false); foo.dispatchEvent(e);
+</script>"; break;
+case 'default': break;*/

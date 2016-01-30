@@ -1,0 +1,573 @@
+@font-face {
+    font-family: 'freedomregular';
+    src: url('../FREEDOM-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.smallglowing-border {
+    margin-right:10px !important;
+    border: 4px solid #51514d !important;
+    border-radius: 7px !important;
+    z-index:9999;
+}
+
+.smallglowing-border:focus {
+    outline: none !important;
+    border-color: #dcd9df !important;
+    box-shadow: 0 0 10px #ffffff !important;
+}
+
+.modalwin{
+    background-color: #dcd9df !important;
+}
+
+html {
+    background: url('../bgklolblur.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.box{
+
+    margin: auto;
+    background: #eee;
+
+    border: 10px solid transparent;
+
+    -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #1113d5 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #1113d5 100%);
+    border-image: linear-gradient(to bottom, #3acfd5 0%, #1113d5 100%);
+
+    border-image-slice: 1;
+}
+
+.box1{
+
+    margin: auto;
+    background: #eee;
+
+    border: 10px solid transparent;
+
+    border-image-slice: 1;
+}
+
+
+
+.htopbanner { text-align: center; -webkit-text-stroke: 0px black; font-family: "Arial", Times, sans-serif;
+color: #ffffff }
+
+.h1l {
+    -webkit-text-stroke: 0px black;
+    color: #010101;
+}
+
+h1 {
+    -webkit-text-stroke: 2.5px black;
+    color: white;
+}
+
+h4 {
+    color: rgb(174, 255, 49);
+}
+
+.h21 { text-align: center;
+    -webkit-text-stroke: 0px black;
+    font-family: "roboto", Calibri, serif; !important;
+    font-size: 140%;
+    }
+
+.h23 {
+    -webkit-text-stroke: 0px black;
+    font-family: "Arial", Times, sans-serif; !important;
+    color: #000000;
+}
+
+#h22 {
+    -webkit-text-stroke: 1px #eeaf00;
+    font-family: 'freedomregular' !important;
+}
+
+.titulo{
+    font-size: 60px !important;
+    font-family: 'freedomregular' !important;
+}
+
+.tituloverde{
+    color: greenyellow !important;
+    font-size: 60px !important;
+    font-family: 'freedomregular' !important;
+}
+
+.subtitulo{
+    font-size: 30px !important;
+    font-family: 'freedomregular' !important;
+}
+
+body{
+background-color: transparent !important;
+
+    font-family: "Arial", Times, sans-serif;
+}
+
+.top-bar{
+
+    background: none repeat scroll 0 0 #333333 !important;
+}
+
+
+/*SHIZZLE DIZZLE WIZZLE MA NIZZLE*/
+
+
+hr.fancy-line {
+    border: 0;
+    height: 1px;
+    position: relative;
+    margin: -1em 0; /* Keep other elements away from pseudo elements*/
+}
+hr.fancy-line:before {
+    top: -0.5em;
+    height: 1em;
+}
+hr.fancy-line:after {
+    content:'';
+    height: 5em;   /* half the height of :before */
+    top: 1px;        /* height of hr*/
+}
+
+hr.fancy-line:before, hr.fancy-line:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+}
+
+hr.fancy-line, hr.fancy-line:before {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(60, 60, 60, 0.77) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(60, 60, 60, 0.76)), color-stop(75%,rgba(0,0,0,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(60, 60, 60, 0.76) 0%,rgba(0,0,0,0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(60, 60, 60, 0.77) 0%,rgba(0,0,0,0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.76) 0%,rgba(0,0,0,0) 75%);
+    background: radial-gradient(ellipse at center, rgba(60, 60, 60, 0.77) 0%,rgba(0,0,0,0) 75%);
+}
+
+body, hr.fancy-linew:after {
+    background: rgba(244, 244, 244, 0);
+}
+
+/* white line */
+
+hr.fancy-linew {
+    border: 0;
+    height: 1px;
+    position: relative;
+    margin: -1em 0; /* Keep other elements away from pseudo elements*/
+}
+hr.fancy-linew:before {
+    top: -0.5em;
+    height: 1em;
+}
+hr.fancy-linew:after {
+    content:'';
+    height: 5em;   /* half the height of :before */
+    top: 1px;        /* height of hr*/
+}
+
+hr.fancy-linew:before, hr.fancy-linew:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+}
+
+hr.fancy-linew, hr.fancy-linew:before {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.77) 0%, rgba(255, 255, 255, 0) 75%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 75%, color-stop(0%, rgba(255, 255, 255, 0.76)), color-stop(75%,rgba(0,0,0,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.76) 0%,rgba(0,0,0,0) 75%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.77) 0%,rgba(0,0,0,0) 75%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.76) 0%,rgba(0,0,0,0) 75%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.77) 0%,rgba(0,0,0,0) 75%);
+}
+
+body, hr.fancy-linew:after {
+    background: rgba(244, 244, 244, 0);
+}
+
+
+/*white line */
+
+
+
+
+dt { font-family: "Arial", Times, sans-serif; }
+dd { font-family: "Arial", Times, sans-serif;}
+li { font-family: "Arial", Times, sans-serif;}
+.p2  { font-family: "Arial", Times, sans-serif !important; }
+
+.normal {
+    font-weight: normal;
+}
+
+.thick {
+    font-weight: bold;
+}
+
+.thicker {
+    font-weight: 900;
+}
+
+
+/* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE */
+
+.goldprice {
+    border:3pt white solid; min-height: 500px;  max-width: 350px; background: linear-gradient(#b56508, #ffff81); border-radius: 25px; margin: auto;
+}
+
+.bronzeprice {
+    border:3pt white solid; min-height: 500px;  max-width: 350px; background: linear-gradient(#863b0a, #b56508); border-radius: 25px; margin: auto;
+}
+
+.blackprice {
+    border:3pt white solid; min-height: 500px;  max-width: 350px; background: linear-gradient(#333, #666); border-radius: 25px; margin: auto;
+}
+
+.platinumprice {
+    border:3pt white solid; min-height: 500px;  max-width: 350px; background: linear-gradient(#dfd8dd, #898788); border-radius: 25px; margin: auto;
+}
+
+.diamondprice {
+    border:3pt white solid; min-height: 500px;  max-width: 350px; background: linear-gradient(#69fff5, #5097ff); border-radius: 25px; margin: auto;
+}
+
+.challengerprice {
+    border:3pt white solid; min-height: 500px;  max-width: 350px; background: linear-gradient(#ff7200, #2d7dff); border-radius: 25px; margin: auto;
+}
+
+.pricetag {
+    border:3pt white solid; min-height: 250px; min-width: 180px;  background: linear-gradient(#1d46d4, #2d7dff); border-radius: 15px; margin: auto;
+}
+
+.pricetaggamble {
+    border:3pt white solid; min-height: 250px; min-width: 180px; background: linear-gradient(#1dd446, #2dff7d); border-radius: 15px; margin: auto;
+}
+
+
+
+/* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE *//* PRICING TABLE SHIZZLE */
+
+
+/* Cool buy button shizzle wizzle */
+
+.flipper-container {
+    text-align: center;
+    margin-top: 40px;
+    -moz-perspective: 1000;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+
+
+}
+
+.flipper {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Montserrat', arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 11em;
+    height: 4.5em;
+    background-color: #282828;
+    box-shadow: 0 3px 5px #282828;
+    -moz-transition: all 0.6s cubic-bezier(0.37, 0.74, 0.15, 1.65);
+    -o-transition: all 0.6s cubic-bezier(0.37, 0.74, 0.15, 1.65);
+    -webkit-transition: all 0.6s cubic-bezier(0.37, 0.74, 0.15, 1.65);
+    transition: all 0.6s cubic-bezier(0.37, 0.74, 0.15, 1.65);
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.flipper:target {
+    -moz-transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+}
+
+.front-face, .back-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-right: 70px;
+    letter-spacing: 2px;
+    line-height: 4.5em;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.front-face:before, .back-face:before {
+    content: attr(data-icon);
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70px;
+    border-radius: 0 2px 2px 0;
+}
+
+.front-face {
+    background-color: #fcfaf8;
+    color: #5baaff;
+    text-shadow: 0 1px 1px #b5afb5;
+    -moz-transform: rotateX(0deg) translateZ(2.25em);
+    -ms-transform: rotateX(0deg) translateZ(2.25em);
+    -webkit-transform: rotateX(0deg) translateZ(2.25em);
+    transform: rotateX(0deg) translateZ(2.25em);
+}
+.front-face:before {
+    background-image: -moz-linear-gradient(45deg, #cdcdce 0%, #ebeae1 50%, #f9f3f6 50%, #f7f8fc);
+    background-image: -webkit-linear-gradient(45deg, #cec5c7 0%, #ebe4e7 50%, #f9f2f0 50%, #fcf8fc);
+    background-image: linear-gradient(45deg, #cdcace 0%, #e9ebeb 50%, #f6f2f9 50%, #fcf9f9);
+}
+
+.back-face {box-shadow: 0 3px 5px #282828;
+    background-color: #77BD42;
+    color: #53842e;
+    -moz-transform: rotateX(-90deg) translateZ(2.25em);
+    -ms-transform: rotateX(-90deg) translateZ(2.25em);
+    -webkit-transform: rotateX(-90deg) translateZ(2.25em);
+    transform: rotateX(-90deg) translateZ(2.25em);
+}
+.back-face:before {
+    background-image: -moz-linear-gradient(45deg, #53842e 0%, #76bc42 50%, #7dbd4c 50%, #77bd42);
+    background-image: -webkit-linear-gradient(45deg, #53842e 0%, #76bc42 50%, #7dbd4c 50%, #77bd42);
+    background-image: linear-gradient(45deg, #53842e 0%, #76bc42 50%, #7dbd4c 50%, #77bd42);
+}
+
+/* cool buy button shizzle wizzle */
+
+
+
+/* new button purchase */
+
+a{
+
+}
+
+.buybtn{
+    font-family: Arial, sans-serif;
+    background: #fdffff;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(#fafbff,0),color-stop(#dddbdc,1));
+    background:-webkit-linear-gradient(top, #fafbff 0%, #dddbdc 100%);
+    background:-moz-linear-gradient(top, #fafbff 0%, #c7c5c6 100%);
+    background:-o-linear-gradient(top, #fafbff 0%, #adabac 100%);
+    background:linear-gradient(top, #fafbff 0%, #a4a2a3 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8400', endColorstr='#ff6600',GradientType=0 );
+    padding-left:20px;
+    padding-right:40px;
+    height:45px;
+    display:inline-block;
+    position:relative;
+    border:1px solid #5baaff;
+    -webkit-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    -moz-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    -webkit-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+
+    clear:both;
+    margin:10px 0px;
+    overflow:hidden;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+.buybtn-text{
+    padding-top:10px;
+    display:block;
+    font-size:18px;
+    white-space:nowrap;
+    color: #ffffff;
+    text-shadow:1px 1px 1px rgba(207, 207, 207, 0.80);
+    color: #44a5da;
+    -webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+}
+
+.buybtn-hidden-text{
+    position:absolute;
+    height:100%;
+    top:0px;
+    right:52px;
+    width:0px;
+    background: #3fc112;
+    text-shadow:0px -1px 1px #363f49;
+    color:#fff;
+    font-size:18px;
+    white-space:nowrap;
+    text-transform:uppercase;
+    text-align:left;
+    text-indent:17px;
+    overflow:hidden;
+    line-height:42px;
+    -webkit-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -webkit-transition:width 0.3s linear;
+    -moz-transition:width 0.3s linear;
+    -o-transition:width 0.3s linear;
+    transition:width 0.3s linear;
+}
+
+.buybtn-image{
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+    width:52px;
+    border-left:1px solid #ff5a00;
+    -webkit-box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+    -moz-box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+    box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+}
+
+.buybtn-image span{
+    width:38px;
+    height:38px;
+    opacity:0.7;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-20px 0px 0px -20px;
+    background:transparent url(../images/cart.png) no-repeat 75% 55%;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+.buybtn:hover .buybtn-text{
+    text-shadow:0px 1px 1px #5d81ab;
+    color:#fff;
+}
+
+.buybtn:hover .buybtn-hidden-text{
+    width:100px;
+}
+
+.buybtn:hover .buybtn-image span{
+    opacity:1;
+}
+
+.buybtn:active{
+    background:#ff5a00;
+}
+
+/* end of new purchase buttons */
+
+
+/* INSTAGRAM STYLE */
+
+.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-32 { width: 32px; height: 32px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-32.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .ig-b-32 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-32@2x.png); background-size: 60px 178px; } }
+
+/*END OF INSTAGRAM ICON STYLE */
+
+
+
+/* shizzle topbanner */
+
+.fullWidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+/* shizzle topbanner */
+
+
+
+
+
+/* circle shizzle for raffle numbers */
+
+.circle {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 130%;
+    border-radius: 50%;
+
+    /* Just making it pretty */
+@shadow: rgba(0, 0, 0, .1);
+@shadow-length: 4px;
+    -webkit-box-shadow: 0 @shadow-length 0 0 @shadow;
+    box-shadow: 0 @shadow-length 0 0 @shadow;
+    text-shadow: 0 @shadow-length 0 @shadow;
+    background: #38a9e4;
+    color: white;
+    font-family: Helvetica, Arial Black, sans;
+    font-size: 48px;
+    text-align: center;
+}
+
+/* circle shizzle for raffle numbers */
+
+
+
+/*img hover shizzle effects */
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+
+img.grayscale:hover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+
+
+
+img.half-grayscale {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+img.half-grayscale:hover {
+
+
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'0.5\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray alpha(opacity=50); /* IE6-9 */
+    -webkit-filter: grayscale(50%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+
+
+
+/* img hover shizzle effects */
